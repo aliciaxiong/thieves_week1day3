@@ -35,12 +35,13 @@ form{
 
 .continue1{
     width: 96%;
-    padding: 3%;
+    height: 40px;
     margin-top: 10px;
     margin-bottom: 25px;
     font-weight: bolder;
-    font-size: x-large;
-    background-color: rgb(238, 197, 93)
+    font-size: large;
+    background-color: rgb(238, 197, 93);
+    text-align: center
 }
 
 a{
@@ -52,14 +53,16 @@ a{
 
 body{
     width: auto;
-    position: center;
+    margin: 0 auto;
 }
 
 .new{
-    color: rgba(0, 0, 0, 0.34);
+    color: rgba(0, 0, 0, 0.342);
     font-size: xx-large;
-    text-align: center;
     font-weight: bold;
+    text-align: center;
+
+
 }
 
 .create{
@@ -68,21 +71,43 @@ body{
     align-items: center;
 }
 
-button{
-    max-width: 2000px;
+.create_account {
+    max-width: 1000px;
     width: 850px;
     margin-top: 10px;
     margin-bottom: 25px;
     font-weight: bolder;
     font-size: x-large;
-    background-color: rgb(196, 191, 191)
+    background-color: rgba(196, 191, 191, 0.418);
+    height: 40px
 }
 
-/* .continue1{
-    width: 96%;
-    padding: 3%;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    font-weight: bolder;
-    font-size: x-large;
-    background-color: rgb(238, 197, 93) */
+hr {
+    margin-top: 300px
+}
+
+.footer1 {
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(2, 58, 142);
+    font-weight: bold;
+    font-size: medium;
+}
+
+.footer1 div {
+    margin-right: 20px; /* Add margin between individual links */
+}
+
+.footer1 div:last-child {
+    margin-right: 0; /* Remove margin for the last link */
+}
+
+.copyright {
+    margin-top: 40px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
